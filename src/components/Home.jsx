@@ -1,14 +1,14 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import { name } from '../constants';
+import { name } from '../constants/constants.js';
 import { motion } from "framer-motion";
-import Background from './Background';
+// import Background from './Background';
 import Footer from './Footer';
 
 
 
 import '../App.css';
-import { services } from '../constants';
+import { services } from '../constants/constants.js';
 import ButtonLink from './ButtonLink';
 
 
