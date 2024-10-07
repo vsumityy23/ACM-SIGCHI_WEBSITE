@@ -2,11 +2,11 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, EMAIL_JS_PUBLIC_KEY } from "../constants/constants.js";
+import { EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, EMAIL_JS_PUBLIC_KEY } from "../constants";
 import Footer from "./Footer";
 const Contact = () => {
 	const formRef = useRef();
-	const [form, setForm] = useState({  
+	const [form, setForm] = useState({
 		name: "",
 		email: "",
 		message: "",
@@ -49,11 +49,10 @@ const Contact = () => {
 				EMAIL_JS_TEMPLATE_ID,
 				{
 					from_name: username,
-					to_name: "IITK SIGCHI",
+					to_name: "Nithin Manda",
 					reply_to: user_email,
-					to_email: "ashishkj23@iitk.ac.in",
+					to_email: "goudnithin77@gmail.com",
 					message: user_message,
-					from_email: user_email
 				},
 				EMAIL_JS_PUBLIC_KEY
 			)
@@ -84,7 +83,7 @@ const Contact = () => {
         <div className='relative z-0 bg-black w-screen h-screen mt-12'>   
 			<div className='text-white contact overflow-x-hidden pt-12 mt-8 ' id='contact'>
 				<div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl' >
-					<p className='font-light'>REACH OUT TO US</p>
+					<p className='font-light'>REACH OUT TO ME</p>
 					<h2 className='text-5xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-pink-500'>Contact.</h2>
 					<form
 						ref={formRef}
