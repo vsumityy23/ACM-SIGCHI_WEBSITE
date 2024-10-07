@@ -49,9 +49,9 @@ const Contact = () => {
 				EMAIL_JS_TEMPLATE_ID,
 				{
 					from_name: username,
-					to_name: "Nithin Manda",
+					to_name: "SUMIT",
 					reply_to: user_email,
-					to_email: "goudnithin77@gmail.com",
+					to_email: "sumitvishwakarma798@gmail.com",
 					message: user_message,
 				},
 				EMAIL_JS_PUBLIC_KEY
@@ -83,7 +83,7 @@ const Contact = () => {
         <div className='relative z-0 bg-black w-screen h-screen mt-12'>   
 			<div className='text-white contact overflow-x-hidden pt-12 mt-8 ' id='contact'>
 				<div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl' >
-					<p className='font-light'>REACH OUT TO ME</p>
+					<p className='font-light'>REACH US</p>
 					<h2 className='text-5xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-pink-500'>Contact.</h2>
 					<form
 						ref={formRef}

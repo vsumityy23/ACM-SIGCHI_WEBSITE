@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="hidden sm:flex space-x-5 items-center text-sm">
           <Link to='/'>Home</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/experience'>Experience</Link>
+          <Link to='/experience'>Events</Link>
           <Link to='/team'>Team</Link>
           <Link to='/contact'>Contact</Link>
         </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <ul className="font-medium text-2xl space-y-4">
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
+            <li><Link to='/experience' onClick={closeMobileMenu}>Events</Link></li>
             <li><Link to='/team' onClick={closeMobileMenu}>Team</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
