@@ -75,13 +75,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Heads Section */}
-      <section className="py-8">
-        <h2 className="text-3xl font-bold text-center mb-6">Heads</h2>
-        <div className="flex flex-wrap justify-center gap-6">
-          {heads.map((member, index) => renderMemberCard(member, index))}
-        </div>
-      </section>
 
       {/* Secretaries Section */}
       <section className="py-8">

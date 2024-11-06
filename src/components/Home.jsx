@@ -69,7 +69,7 @@ const Home = () => {
 <div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white' id='hero'>
     <div className='pt-4 h-auto max-w-4xl w-full backdrop-blur-sm rounded-3xl flex flex-col justify-center items-center text-center mx-4'>
         <h1 className='text-[2.5rem] font-extrabold mt-2'>
-            ACM SIGHI <span className='text-yellow-200 font-extrabold'> IIT KANPUR STUDENT CHAPTER</span>
+            ACM SIGCHI <span className='text-yellow-200 font-extrabold'> IIT KANPUR STUDENT CHAPTER</span>
         </h1>
         <p className='mt-5 text-xl'>{text}</p>
     </div>      
