@@ -1,6 +1,6 @@
 import React from "react"; 
 import Footer from './Footer';
-import { project } from '../constants'; // Import the project array from constant.js
+import { project } from '../constants';
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (

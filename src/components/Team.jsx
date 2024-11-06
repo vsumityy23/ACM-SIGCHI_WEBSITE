@@ -33,7 +33,7 @@ const Team = () => {
       <img
         src={member.image}
         alt={`${member.name} Photo`}
-        className="rounded-full w-32 h-32 mx-auto mb-4"
+        className="rounded-full w-48 h-48 mx-auto mb-4"
       />
       <h3 className="text-xl font-semibold text-white">{member.name}</h3>
       <p className="text-gray-400">{member.role}</p>
@@ -106,7 +106,7 @@ const Team = () => {
             <img
               src={selectedMember.image}
               alt={`${selectedMember.name} Photo`}
-              className="rounded-full w-32 h-32"
+              className="rounded-full w-48 h-48"
             />
           </div>
           <p className="text-center text-gray-700">
