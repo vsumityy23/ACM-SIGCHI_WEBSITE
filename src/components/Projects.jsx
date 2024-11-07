@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import Footer from './Footer';
 import { project } from '../constants';
 
@@ -8,7 +8,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             
             {/* Image */}
             <a href="#">
-                <img class="w-[400px] h-[350px] object-cover transition-opacity duration-300 group-hover:opacity-80" src={image} alt={title} />
+                <img className="w-[400px] h-[350px] object-cover transition-opacity duration-300 group-hover:opacity-80" src={image} alt={title} />
             </a>
 
             {/* Title - always visible below the image */}
@@ -20,8 +20,8 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 </a>
             </div>
 
-            {/* Hidden content that appears on hover */}
-            <div className="absolute inset-0 bg-gray-900 p-6 flex flex-col justify-center items-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:flex hidden">
+            {/* Hidden content that appears on hover, with a scrollable area */}
+            <div className="absolute inset-0 bg-gray-900 p-6 flex flex-col justify-center items-center transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:overflow-y-auto group-hover:max-h-[500px] custom-scrollbar">
                 <p className="text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400 text-center">
                     {description}
                 </p>
@@ -35,26 +35,6 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 <a href={git} className="mt-4 text-red-300 border border-gray-200 rounded-lg shadow p-2 hover:text-green-500 duration-300 transition-colors">
                     GitHub
                 </a>
-            </div>
-
-            {/* Ensure the content is hidden on mobile when not hovered */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center transition-all duration-300 ease-in-out group-hover:flex hidden group-hover:block">
-                {/* Overlay to hide text when not hovered */}
-                <div className="h-full w-full bg-gray-900 opacity-75 flex flex-col justify-center items-center p-6">
-                    <p className="text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400 text-center">
-                        {description}
-                    </p>
-                    <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                        {technologies.map((tag, index) => (
-                            <p key={`${index}-${tag}`} className="text-[14px] text-blue-500">
-                                #{tag}
-                            </p>
-                        ))}
-                    </div>
-                    <a href={git} className="mt-4 text-red-300 border border-gray-200 rounded-lg shadow p-2 hover:text-green-500 duration-300 transition-colors">
-                        GitHub
-                    </a>
-                </div>
             </div>
         </div>
     );

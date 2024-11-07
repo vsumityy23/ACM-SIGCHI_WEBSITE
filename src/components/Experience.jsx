@@ -36,14 +36,9 @@ const Experience = () => {
           >
             <div>
               <h3 className='text-white text-[24px] font-bold'>{event.title}</h3>
-              <p className='text-gray-400 text-[16px] font-semibold mb-4 pb-5' style={{ margin: 0 }}>
+              <p className='text-gray-400 text-[16px] font-semibold mb-4 ' style={{ margin: 0 }}>
                 {event.description}
               </p>
-               <div>
-                 <a href={event.link} className="mt-4 text-red-300 border border-gray-200 rounded-lg shadow p-2 hover:text-green-500 duration-300 transition-colors">
-                    More Info
-                </a>
-                </div>
             </div>
           </VerticalTimelineElement>
         ))}
