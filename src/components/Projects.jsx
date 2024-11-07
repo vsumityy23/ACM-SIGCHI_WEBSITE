@@ -8,7 +8,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             
             {/* Image */}
             <a href="#">
-                <img className="w-[400px] h-[350px] object-cover transition-opacity duration-300 group-hover:opacity-80" src={image} alt={title} />
+                <img className="w-[430px] h-[350px] object-cover transition-opacity duration-300 group-hover:opacity-80" src={image} alt={title} />
             </a>
 
             {/* Title - always visible below the image */}
