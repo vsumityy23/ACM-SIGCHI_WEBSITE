@@ -41,7 +41,6 @@ const Contact = () => {
 			});
 			return;
 		}
-		console.log(username, user_email, user_message);
 
 		emailjs
 			.send(
@@ -51,7 +50,7 @@ const Contact = () => {
 					from_name: username,
 					to_name: "SUMIT",
 					reply_to: user_email,
-					to_email: "sumitvishwakarma798@gmail.com",
+					to_email: "hci.iitk@gmail.com",
 					message: user_message,
 				},
 				EMAIL_JS_PUBLIC_KEY
@@ -132,6 +131,21 @@ const Contact = () => {
 						</button>
 					</form>
 				</div>
+
+				{/* Google Group Section */}
+				<div className='mt-12 flex flex-col items-center text-center'>
+					<h3 className='text-3xl font-bold text-gray-300'>Join Our Google Group</h3>
+					<p className='mt-2 text-gray-400'>Stay updated with the latest discussions and events.</p>
+					<a
+						href="https://groups.google.com/g/iitksigchi"
+						target="_blank"
+						rel="noopener noreferrer"
+						className='mt-4 inline-block py-3 px-8 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg transition-all duration-300  hover:scale-105 mb-5 '
+					>
+						Join Now
+					</a>
+				</div>
+
 				<ToastContainer />
 			</div>
 			<Footer />

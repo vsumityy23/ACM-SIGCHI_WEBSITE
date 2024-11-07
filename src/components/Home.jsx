@@ -9,6 +9,7 @@ import Footer from './Footer';
 
 import '../App.css';
 import { services } from '../constants';
+
 import ButtonLink from './ButtonLink';
 
 
@@ -113,6 +114,7 @@ const Home = () => {
 
 
 				</div>
+				
 				
 				<div className='mt-20 flex justify-center flex-wrap gap-7'>
 					

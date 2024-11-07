@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import Modal from 'react-modal'; // Modal package
+import Modal from 'react-modal';
 import { facultyAdvisor, coreMembers, heads, secretaries } from '../constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import LinkedIn icon
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Footer from './Footer';
 
-// Styles for the Modal
-Modal.setAppElement('#root'); // This is required by react-modal to prevent screen readers from reading out hidden DOMs.
+Modal.setAppElement('#root');
 
 const Team = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -33,7 +32,7 @@ const Team = () => {
       <img
         src={member.image}
         alt={`${member.name} Photo`}
-        className="rounded-full w-48 h-48 mx-auto mb-4"
+        className="rounded-full w-48 h-48 mx-auto mb-4 object-cover"
       />
       <h3 className="text-xl font-semibold text-white">{member.name}</h3>
       <p className="text-gray-400">{member.role}</p>
@@ -60,7 +59,6 @@ const Team = () => {
       {/* Faculty Advisor Section */}
       <section className="py-20">
         <h2 className="text-3xl font-extrabold text-center mb-6">Faculty Advisor</h2>
-
         <div className="flex justify-center">
           {facultyAdvisor.map((member, index) => renderMemberCard(member, index))}
         </div>
@@ -69,12 +67,10 @@ const Team = () => {
       {/* Core Team Section */}
       <section className="py-8">
         <h2 className="text-3xl font-extrabold text-center mb-6">Core Team</h2>
-        {/* text-4xl sm:text-5xl font-extrabold mt-2 */}
         <div className="flex flex-wrap justify-center gap-6">
           {coreMembers.map((member, index) => renderMemberCard(member, index))}
         </div>
       </section>
-
 
       {/* Secretaries Section */}
       <section className="py-8">
@@ -94,7 +90,7 @@ const Team = () => {
           overlayClassName="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center"
         >
           <button
-            className="absolute top-2 right-2 text-black text-3xl transition-transform transform hover:scale-110" // Enlarged close icon
+            className="absolute top-2 right-2 text-black text-3xl transition-transform transform hover:scale-110"
             onClick={closeModal}
           >
             &times;
@@ -106,7 +102,7 @@ const Team = () => {
             <img
               src={selectedMember.image}
               alt={`${selectedMember.name} Photo`}
-              className="rounded-full w-48 h-48"
+              className="rounded-full w-48 h-48 object-cover"
             />
           </div>
           <p className="text-center text-gray-700">
@@ -114,9 +110,9 @@ const Team = () => {
           </p>
         </Modal>
       )}
-      <Footer/>
+      <Footer />
     </div>
   );
-}
+};
 
 export default Team;
