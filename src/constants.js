@@ -126,10 +126,10 @@ export const coreMembers = [
       {
         name: "Devdhar U Patil",
         role: "Leader",
-        image: "/images/pfp/acc.png",
-        github: "#",
+        image: "/images/pfp/Photo.png",
+        github: "https://github.com/Devdharpatil",
         linkedin:"https://www.linkedin.com/in/devdhar-patil/",
-        description: "Leader"
+        description: "Leader at ACM SIGCHI IIT KANPUR Student Chapter"
     },
       {
         name: "Srijan Anand",
