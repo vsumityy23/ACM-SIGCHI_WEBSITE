@@ -27,7 +27,7 @@ export const services = [
 
 
 //////////////////////////////////////////////////////HOME PAGE TAGLINE//////////////////////////////////////////////////////////
-export const name = '   Fostering HCI Awareness on Campus Through Collaborative Learning, Prototyping, and Community Engagement';
+export const name = 'Fostering HCI Awareness through Campus-Wide Collaboration and Interactive Engagement';
 
 
 
@@ -253,6 +253,14 @@ export const coreMembers = [
         linkedin:"https://www.linkedin.com/in/pratyush-biswal-289444163/",
         description: "Student in CHE Dept, having interest in ML and webdev. UI/UX is cherry on top."
     },
+                    {
+        name: "Gudi Praneeth Sai",
+        role: "Secretary",
+        image: "/images/pfp/IMG-20240701-WA0008 (1) - Gudi Praneeth.jpg",
+        github: "#",
+        linkedin:"https://www.linkedin.com/in/gudi-praneeth-9061072a7/",
+        description: "Hi, I'm Praneeth. I'm passionate about developing Machine Learning (ML) applications, creating voice chatbots, and generating music using ML."
+    },
                 {
         name: "Basudev Mohapatra",
         role: "Secretary",
@@ -261,14 +269,7 @@ export const coreMembers = [
         linkedin:"https://www.linkedin.com/in/basudev-mohapatra-44131b293/",
         description: "Secretary"
     },
-                {
-        name: "Gudi Praneeth Sai",
-        role: "Secretary",
-        image: "/images/pfp/acc.png",
-        github: "#",
-        linkedin:"https://www.linkedin.com/in/gudi-praneeth-9061072a7/",
-        description: "Secretary"
-    },
+
                 {
         name: "Cezan Vispi Damania",
         role: "Secretary",
