@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
+import ProjectDetails from "./components/ProjectDetail";
 
 import Team from './components/Team'
 import Contact from './components/Contact';
@@ -25,6 +26,8 @@ root.render(
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/team' element={<Team/>}/>
+        {/* <Route path="/projects_description" element={<ProjectDetail/>} /> Dynamic route */}
+         <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
     </BrowserRouter>
 );

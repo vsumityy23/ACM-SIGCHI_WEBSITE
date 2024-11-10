@@ -292,37 +292,157 @@ export const coreMembers = [
 //////////////////////////////////////////////////////////////////PROJECTS////////////////////////////////////////////////////////////////////////////////////////////////////
 export const project = [
     {
+        id:1,
         title: 'UnMute Project',
         description: 'The UnMute Project, funded by EPSRC and led by the University of Edinburgh and Swansea University in collaboration with Translators Without Borders and Auris Tech, aims to remove barriers in speech and voice-based interactions for digitally marginalized populations. It targets individuals with low digital and textual literacy, aiming to create a blueprint and toolkit benefiting low or zero-resource language communities worldwide.',
         image: "/images/unm.png",
-        git: '#',
-        technologies: ['EPSRC', 'Auris Tech', 'Translators Without Borders']
+        git: '',
+        technologies: ['EPSRC', 'Auris Tech', 'Translators Without Borders'],
+        long_description: 'The UnMute Project, funded by EPSRC and led by the University of Edinburgh and Swansea University in collaboration with Translators Without Borders and Auris Tech, aims to remove barriers in speech and voice-based interactions for digitally marginalized populations. It targets individuals with low digital and textual literacy, aiming to create a blueprint and toolkit benefiting low or zero-resource language communities worldwide.',
+        coreMembers :[
+    {
+      name: "Shashwat Gupta",
+      role: "Team Lead",
+      image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+      github: "https://github.com/ShashwatGupta2001/",
+      linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+      description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+    },
+   {
+      name: "Riya Sanket Kashive",
+      role: "Senior Mentor",
+      image: "/images/pfp/Pfp - Riya Kashive.jpg",
+      github: "https://github.com/thelatephylosopher",
+      linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+      description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+    },
+     {
+      name: "Divyanshi Sharma ",
+      role: "Junior Team Member",
+      image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+      github: "https://github.com/divyanshis24",
+      linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+      description: "'Just make it user-friendly!' --cue existential crisis "
+  
+    },
+    
+  ],
 
     },
     {
+      id:2,
         title: 'JalJeevan Mission',
         description: 'We have collaborated with JalJeevan Mission to develop an app using ML techniques and algorithms to detect leakage at certain locations, helping to save water and potentially serving thousands.',
         image: "/images/jalj.png",
         git: "#",
-        technologies: ['Machine Learning', 'JalJeevan Mission', 'Water Management']
+        technologies: ['Machine Learning', 'JalJeevan Mission', 'Water Management'],
+        long_description: 'We have collaborated with JalJeevan Mission to develop an app using ML techniques and algorithms to detect leakage at certain locations, helping to save water and potentially serving thousands.',
+          coreMembers :[
+    {
+      name: "Shashwat Gupta",
+      role: "Team Lead",
+      image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+      github: "https://github.com/ShashwatGupta2001/",
+      linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+      description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+    },
+   {
+      name: "Riya Sanket Kashive",
+      role: "Senior Mentor",
+      image: "/images/pfp/Pfp - Riya Kashive.jpg",
+      github: "https://github.com/thelatephylosopher",
+      linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+      description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+    },
+     {
+      name: "Divyanshi Sharma ",
+      role: "Junior Team Member",
+      image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+      github: "https://github.com/divyanshis24",
+      linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+      description: "'Just make it user-friendly!' --cue existential crisis "
+  
+    },
+    
+  ],
 
     },
         {
+          id:3,
         title: 'Saathi',
         description: 'Saathi project is targeted towards the children from rural area and parts of India having less excess to education in general. It is about teaching them basics through a gamified manner(diagrams, pics, tables etc). They get a score displayed if they answer correctly. It is currently deployed in web browser but we further want it to be integrated in an app.',
         image: "/images/saathi.png",
         git: "https://www.cgs.iitk.ac.in/user/anveshna/saathi/",
-        technologies: ['App Deveopment','UI/UX']
-
+        technologies: ['App Deveopment','UI/UX'],
+        long_description: 'Saathi project is targeted towards the children from rural area and parts of India having less excess to education in general. It is about teaching them basics through a gamified manner(diagrams, pics, tables etc). They get a score displayed if they answer correctly. It is currently deployed in web browser but we further want it to be integrated in an app.',
+          coreMembers :[
+    {
+      name: "Shashwat Gupta",
+      role: "Team Lead",
+      image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+      github: "https://github.com/ShashwatGupta2001/",
+      linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+      description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+    },
+   {
+      name: "Riya Sanket Kashive",
+      role: "Senior Mentor",
+      image: "/images/pfp/Pfp - Riya Kashive.jpg",
+      github: "https://github.com/thelatephylosopher",
+      linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+      description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+    },
+     {
+      name: "Divyanshi Sharma ",
+      role: "Junior Team Member",
+      image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+      github: "https://github.com/divyanshis24",
+      linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+      description: "'Just make it user-friendly!' --cue existential crisis "
+  
+    },
+    
+  ],
 
 
     },
         {
+          id:4,
         title: 'Vidya Vaani',
         description: 'This project supports over 200 differently-abled students at IITK, especially those with auditory impairments who struggle to keep up with lectures and often fall behind. By providing real-time captioning, we ensure equal access to educational content, helping them stay on track with their peers. Additionally, we aim to offer structured notes to enhance learning for the entire student community and improve educational outcomes',
         image: "/images/vidy.png",
         git: "#",
-        technologies: ['Machine Learning', 'Hugging Face']
+        long_description: 'This project supports over 200 differently-abled students at IITK, especially those with auditory impairments who struggle to keep up with lectures and often fall behind. By providing real-time captioning, we ensure equal access to educational content, helping them stay on track with their peers. Additionally, we aim to offer structured notes to enhance learning for the entire student community and improve educational outcomes',
+       
+        technologies: ['Machine Learning', 'Hugging Face'],
+           coreMembers :[
+    {
+      name: "Shashwat Gupta",
+      role: "Team Lead",
+      image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+      github: "https://github.com/ShashwatGupta2001/",
+      linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+      description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+    },
+   {
+      name: "Riya Sanket Kashive",
+      role: "Senior Mentor",
+      image: "/images/pfp/Pfp - Riya Kashive.jpg",
+      github: "https://github.com/thelatephylosopher",
+      linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+      description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+    },
+     {
+      name: "Divyanshi Sharma ",
+      role: "Junior Team Member",
+      image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+      github: "https://github.com/divyanshis24",
+      linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+      description: "'Just make it user-friendly!' --cue existential crisis "
+  
+    },
+    
+  ],
     }
 ]
 
