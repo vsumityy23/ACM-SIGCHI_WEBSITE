@@ -11,9 +11,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        
         <Route path='/experience' element={<Experience/>}/>
-        {/* <Route path="/projects_description" component={<ProjectDetail/>} /> Dynamic route */}
          <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
       <Footer/>
